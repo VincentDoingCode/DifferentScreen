@@ -1,0 +1,25 @@
+body{
+    background-color: pink;
+}
+@media screen and(min-width:780x){
+    body{
+        background-color: lightgreen;
+    }
+    
+}
+.STUFF{
+    border: 1px solid lightskyblue;
+    background: lightcyan;
+    border-radius: 4px;
+    padding: 2px;
+}
+@media screen and(min-width:480px){
+    .table{
+        overflow: auto;
+        width:200px; float:left;
+    }
+    #main{
+        margin-top: 40px;
+        margin-left: 216px;
+    }
+}
