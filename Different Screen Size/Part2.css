@@ -1,5 +1,54 @@
-@media screen and(min-width:600px) {
+
+
+@media screen and (max-width:600px) {
     body{
         background-color: yellow;
+        font-size: 150%;
     }
+    .heading{
+        color: lightcoral;
+        border: 2px solid chartreuse;
+        background-color: blanchedalmond;
+        border-radius: 30px;
+    }
+    .Paragraph{
+        padding: 1px;
+    }
+    .Image{
+        width: 400px;
+        height: 150px;
+
+    }
+    .Image img{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+@media screen and (min-width:600px){
+    body{
+        background-color: lightblue;
+        font-size: 200%;
+    }
+    .heading{
+        border: 3px solid lightgray;
+        background-color: lightseagreen;
+        border-radius: 30px;
+    }
+    .Image{
+        width: auto;
+        height: 200px;
+    }
+    .Image img{
+        width: 100%;
+        height: auto;
+        
+    }
+}
+
+body{
+    text-align: center;
+}
+Link{
+    cursor: pointer;
 }
